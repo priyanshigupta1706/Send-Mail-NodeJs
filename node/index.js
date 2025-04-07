@@ -31,8 +31,7 @@ const transporter = nodemailer.createTransport({
  app.post('/submit', (req, res) => {
    const { email, message } = req.body;
 
-   // Create a nodemailer transporter
-   
+
    const mailData = {
      from: 'vidhansharma84@gmail.com',
      to: "priyanshayyy@gmail.com",
