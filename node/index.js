@@ -41,7 +41,7 @@ const transporter = nodemailer.createTransport({
      
    };
 
-   // Send email
+  
    transporter.sendMail(mailData, (error, info) => {
      if (error) {
        console.log(error);
